@@ -42,7 +42,7 @@ async function addMovie(event){
             },
             body: JSON.stringify(movie)
         })
-    }
+    }catch(error){}
 
 
 
