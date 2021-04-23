@@ -1,0 +1,190 @@
+
+.navbarLogo{
+  width:100px;
+}
+
+.navbarAvatar{
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+}
+
+.navbarAvatarSmall{
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  margin-right: 5px;
+}
+
+.dropdown-item{
+  padding-left: 10px;
+}
+
+.dropdown-item a:hover{
+  color: #000000;
+}
+
+.navbarRightUl{
+  position: absolute;
+  right: 80px;
+  top:10px;
+}
+
+.navbar-toggler{
+  color:#FFFFFF;
+  border: 1px solid #FFFFFF;
+}
+.navbar-toggler-icon{
+  color: #FFFFFF;
+}
+.navbarNetflix{
+  background-color: #141414;
+}
+
+.navbarNetflix a{
+  color: #FFFFFF;
+  font-size: 0.8em;
+}
+
+.searchWhite{
+  color: #FFFFFF;
+}
+
+body{
+  background-color: #141414;
+}
+
+.containerRelative{
+  position: relative;
+}
+
+.genresButton{
+  display: inline-block;
+  padding: 5px 20px;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  margin-left: 20px;
+}
+.genresButton:hover{
+  color: #FFFFFF;
+}
+
+.genresTitle{
+  color: #FFFFFF;
+  display: inline-block ;
+}
+
+.carouselTitle{
+  color: #FFFFFF;
+  font-size: 28px;
+}
+
+.socialLink{
+  display: inline-block;
+  color: #b1b1b1;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.socialLink :hover{
+  color: #FFFFFF;
+}
+
+.footerList{
+  list-style: none;
+  padding-left: 0;
+}
+
+.footerList li{
+  padding: 0;
+  margin: 0;
+  color: #b1b1b1;
+}
+
+.footerServiceButton{
+  padding: 5px 10px;
+  color: #b1b1b1;
+  border:1px solid #b1b1b1;
+}
+
+.footerText{
+  color: #b1b1b1;
+  margin-top: 10px;
+}
+
+.containerFooter{
+  max-width:800px;
+  margin:auto;
+}
+
+.imgCarousel{
+  border-radius: 4px;
+}
+
+.bodySettings{
+  background-color: #FFFFFF;
+}
+
+.blackDropdown{
+  background-color: black;
+  color: #FFFFFF;
+}
+.blackDropdown a:hover{
+  color: #FFFFFF;
+}
+.blackDropdown a{
+  color: #FFFFFF;
+}
+
+.firstPageUser{
+  width: 180px;
+  height: 180px;
+  border-radius: 16px;
+}
+.UserContainer{
+  text-align: center;
+  color: #b1b1b1;
+  font-size: 32px;
+  display: inline-block;
+  margin: 0px 10px;
+}
+
+.UserContainer p:hover{
+  color: #FFFFFF;
+}
+
+.UserContainer img:hover{
+  border: 2px solid #ffffff;
+}
+
+.UsersContainer{
+  margin-top: 60px;
+}
+
+h6{
+
+    color:rgb(180, 180, 180);
+}
+
+ul{
+    list-style-type:none;
+    padding:0;
+}
+
+.navbar{
+    background-color:#141414;
+}
+
+#settings{
+    margin-bottom:5rem;
+}
+
+@media (min-width:768px){
+
+    #settings{
+        width:80%;
+    }
+}
+
+
+
