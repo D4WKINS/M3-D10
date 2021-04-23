@@ -45,7 +45,7 @@ async function addMovie(event){
     }catch(error){}
 
 
-
+}
 // "name": "Strive School",
 //     "description": "Horror movie about coding 10 hours per day",
 //     "category": "horror",
