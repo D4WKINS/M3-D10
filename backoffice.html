@@ -132,34 +132,16 @@ const url = localStorage.getItem("url")
         
       }
 
-const movies = {
-                    categories:
-                    [
-                      Adolescent=[],
-                      Anime=[],
-                      Action=[] ,
-                      Comedy=[], 
-                      Documentary=[],
-                      Dramas=[], 
-                      Horror=[],
-                      Kids=[],
-                      Romantic=[],
-                      Thriller=[]
-                    ]
-                  }
-
-
 const addMovie = async () =>{
 
   const movie = {
         "name": document.getElementById('movie-name').value,
         "description": document.getElementById('movie-description').value,
-        "category": document.getElementById('movie-category').value,
+        "category": document.getElementById('movie-category').value.toLowerCase(),
         "imageUrl": document.getElementById('movie-img').value
     }
   
     console.log(movie)
-
 
    const response = await fetch(" https://striveschool-api.herokuapp.com/api/movies/",{
       method:"POST",
