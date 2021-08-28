@@ -170,6 +170,10 @@ ul{
     list-style-type:none;
     padding:0;
 }
+label{
+  font-family:arial;
+  font-weight:bold;
+}
 
 .navbar{
     background-color:#141414;
